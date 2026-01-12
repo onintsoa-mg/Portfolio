@@ -1,0 +1,49 @@
+{
+    "navbar": {
+        "projects": "Projets",
+        "experience": "Expérience",
+        "skills": "Compétences",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "available": "Disponible pour des projets",
+        "cta": "Voir les projets",
+        "description": "Spécialisé dans les architectures web évolutives, l'intégration de l'IA et les solutions prêtes pour la production. Je conçois des applications de qualité entreprise qui résolvent de vrais problèmes commerciaux.",
+        "linkedin": "LinkedIn",
+        "visual": {
+            "backend": "Architecture Backend",
+            "ai": "Modèles IA",
+            "uptime": "Disponibilité 99.9%",
+            "frontend": "React / Next.js"
+        }
+    },
+    "projectCard": {
+        "featured": "En Vedette",
+        "problem": "Problème",
+        "solution": "Solution",
+        "impact": "Impact",
+        "live": "Démo Live",
+        "code": "Code Source"
+    },
+    "sections": {
+        "projects": {
+            "title": "Projets en Vedette",
+            "subtitle": "Une sélection de projets démontrant des solutions de qualité entreprise, des plateformes web haute performance à l'automatisation par l'IA."
+        },
+        "experience": {
+            "title": "Expérience Professionnelle",
+            "subtitle": "Un historique de construction de systèmes évolutifs et de création de valeur pour des entreprises des secteurs Fintech, E-commerce et IA."
+        },
+        "skills": {
+            "title": "Expertise Technique",
+            "subtitle": "Un aperçu complet de mon stack technique, avec une maîtrise vérifiée dans des environnements de production."
+        },
+        "contact": {
+            "title": "Prêt à passer à l'échelle ?",
+            "description": "Je suis actuellement disponible pour de nouvelles opportunités. Que vous ayez besoin d'un expert pour diriger un projet ou d'un ingénieur senior pour rejoindre votre équipe, discutons de la façon dont je peux apporter de la valeur à votre entreprise.",
+            "cta": "Lancer une conversation",
+            "details": "Détails du Contact"
+        }
+    }
+}

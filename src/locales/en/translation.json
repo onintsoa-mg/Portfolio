@@ -1,0 +1,49 @@
+{
+    "navbar": {
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "available": "Available for projects",
+        "cta": "View Projects",
+        "description": "Specializing in scalable web architectures, AI integration, and production-ready solutions. I build enterprise-grade applications that solve real business problems.",
+        "linkedin": "LinkedIn",
+        "visual": {
+            "backend": "Backend Architecture",
+            "ai": "AI Models",
+            "uptime": "99.9% Uptime",
+            "frontend": "React / Next.js"
+        }
+    },
+    "projectCard": {
+        "featured": "Featured",
+        "problem": "Problem",
+        "solution": "Solution",
+        "impact": "Impact",
+        "live": "Live Demo",
+        "code": "Source Code"
+    },
+    "sections": {
+        "projects": {
+            "title": "Featured Projects",
+            "subtitle": "A selection of projects demonstrating enterprise-grade solutions, from high-performance web platforms to AI-driven automation."
+        },
+        "experience": {
+            "title": "Professional Experience",
+            "subtitle": "A track record of building scalable systems and delivering value for companies across Fintech, E-commerce, and AI sectors."
+        },
+        "skills": {
+            "title": "Technical Expertise",
+            "subtitle": "A comprehensive overview of my technical stack, with verified proficiency in production environments."
+        },
+        "contact": {
+            "title": "Ready to Scale?",
+            "description": "I am currently available for new opportunities. Whether you need an expert to lead a project or a senior engineer to join your team, let's discuss how I can bring value to your business.",
+            "cta": "Start a Conversation",
+            "details": "Contact Details"
+        }
+    }
+}
