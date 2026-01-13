@@ -9,13 +9,15 @@
         "greeting": "Hi, I'm",
         "available": "Available for projects",
         "cta": "View Projects",
-        "description": "Specializing in scalable web architectures, AI integration, and production-ready solutions. I build enterprise-grade applications that solve real business problems.",
+        "description": "Specialized in scalable web and mobile architectures, AI integration, and production-ready solutions. I design enterprise-grade applications that solve real business needs.",
         "linkedin": "LinkedIn",
+        "download_cv": "Download CV",
+        "cv_filename": "cv-onintsoa-en.pdf",
         "visual": {
-            "backend": "Backend Architecture",
-            "ai": "AI Models",
+            "backend": "Mobil Apps",
+            "ai": "Web Apps",
             "uptime": "99.9% Uptime",
-            "frontend": "React / Next.js"
+            "frontend": "AI Models"
         }
     },
     "projectCard": {
@@ -29,7 +31,7 @@
     "sections": {
         "projects": {
             "title": "Featured Projects",
-            "subtitle": "A selection of projects demonstrating enterprise-grade solutions, from high-performance web platforms to AI-driven automation."
+            "subtitle": "A selection of projects showcasing enterprise-grade solutions, ranging from high-performance web and mobile platforms to AI-driven automation."
         },
         "experience": {
             "title": "Professional Experience",

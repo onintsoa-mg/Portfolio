@@ -1,6 +1,6 @@
 export const portfolioData = {
     personal: {
-        name: "RAZAFIMANDIMBY Andriarivolanirina Onintsoa",
+        name: "Onintsoa",
         shortName: "Onintsoa Razafimandimby",
         titles: [
             "Ingénieur Logiciel & IA",
@@ -22,43 +22,66 @@ export const portfolioData = {
 
     skills: [
         {
-            category: "Frontend",
+            category: "Technologies",
             items: [
-                { name: "React", level: "Expert", context: "Production" },
-                { name: "Next.js", level: "Avancé", context: "Production" },
-                { name: "TypeScript", level: "Avancé", context: "Production" },
-                { name: "Tailwind CSS", level: "Expert", context: "Production" },
-                { name: "Ionic", level: "Avancé", context: "Apps Mobiles" },
-                { name: "Angular", level: "Intermédiaire", context: "Projets Legacy" }
-            ]
-        },
-        {
-            category: "Backend",
-            items: [
-                { name: "Node.js", level: "Expert", context: "APIs Haute Perf." },
                 { name: "Python", level: "Expert", context: "IA & Automatisation" },
-                { name: "FastAPI", level: "Avancé", context: "Microservices" },
-                { name: "Symfony/Laravel", level: "Avancé", context: "Apps Entreprise" },
-                { name: "PHP", level: "Avancé", context: "Production" }
+                { name: "JavaScript", level: "Expert", context: "Full-Stack" },
+                { name: "TypeScript", level: "Avancé", context: "Production" },
+                { name: "Java", level: "Intermédiaire", context: "Entreprise" },
+                { name: "C++", level: "Intermédiaire", context: "Systèmes/Jeux" },
+                { name: "C#", level: "Intermédiaire", context: "Entreprise/.NET" },
+                { name: "C", level: "Intermédiaire", context: "Embarqué" },
+                { name: "PHP", level: "Expert", context: "Apps Web" },
+                { name: "HTML/CSS", level: "Expert", context: "Frontend" },
+                { name: "Visual Basic", level: "Intermédiaire", context: "Hérité" }
             ]
         },
         {
-            category: "IA & Data",
+            category: "Frameworks & Librairies",
             items: [
-                { name: "NLP", level: "Avancé", context: "Voicebots & Analyse Texte" },
-                { name: "TensorFlow", level: "Intermédiaire", context: "Intégration Modèles" },
-                { name: "Scikit-learn", level: "Intermédiaire", context: "Analyses Prédictives" },
-                { name: "MySQL/PostgreSQL", level: "Expert", context: "Modélisation Complexe" },
-                { name: "MongoDB", level: "Avancé", context: "Données NoSQL" }
+                { name: "React", level: "Expert", context: "Frontend" },
+                { name: "Next.js", level: "Avancé", context: "Production" },
+                { name: "Angular", level: "Avancé", context: "Apps Web" },
+                { name: "Vue", level: "Expert", context: "Apps Web" },
+                { name: "Node.js", level: "Expert", context: "Backend" },
+                { name: "Laravel/Symfony", level: "Avancé", context: "Entreprise" },
+                { name: "CodeIgniter", level: "Expert", context: "Hérité" },
+                { name: "Ionic", level: "Expert", context: "Mobile" },
+                { name: ".NET", level: "Intermédiaire", context: "Backend" },
+                { name: "Quarkus", level: "Intermédiaire", context: "Microservices" },
+                { name: "Hibernate", level: "Intermédiaire", context: "ORM" },
+                { name: "Bootstrap/jQuery", level: "Expert", context: "Frontend" }
             ]
         },
         {
-            category: "DevOps & Outils",
+            category: "Bases de Données",
             items: [
-                { name: "Git", level: "Expert", context: "Workflows CI/CD" },
-                { name: "Docker", level: "Avancé", context: "Conteneurisation" },
-                { name: "AWS/Azure", level: "Intermédiaire", context: "Déploiement Cloud" },
-                { name: "Linux", level: "Avancé", context: "Gestion Serveur" }
+                { name: "MySQL", level: "Expert", context: "Relationnel" },
+                { name: "PostgreSQL", level: "Expert", context: "Modèles Complexes" },
+                { name: "Oracle", level: "Intermédiaire", context: "Entreprise" },
+                { name: "MongoDB", level: "Avancé", context: "NoSQL" },
+                { name: "Supabase", level: "Expert", context: "BaaS" }
+            ]
+        },
+        {
+            category: "IA & Cloud",
+            items: [
+                { name: "TensorFlow", level: "Intermédiaire", context: "Deep Learning" },
+                { name: "Scikit-Learn", level: "Intermédiaire", context: "Machine Learning" },
+                { name: "Stable Baselines", level: "Intermédiaire", context: "RL" },
+                { name: "MATLAB", level: "Intermédiaire", context: "Analyse" },
+                { name: "AWS/Azure", level: "Intermédiaire", context: "Cloud" },
+                { name: "MQL5", level: "Avancé", context: "Trading" }
+            ]
+        },
+        {
+            category: "Paiement & Divers",
+            items: [
+                { name: "Stripe/PayPal", level: "Expert", context: "Fintech" },
+                { name: "Binance/Coingate", level: "Avancé", context: "Crypto" },
+                { name: "Arduino", level: "Avancé", context: "IoT" },
+                { name: "WordPress", level: "Expert", context: "CMS" },
+                { name: "Photoshop/Blender", level: "Avancé", context: "Design/3D" }
             ]
         }
     ],
@@ -76,7 +99,7 @@ export const portfolioData = {
                 "Implémentation d'authentifications sécurisées et d'intégrations de passerelles de paiement.",
                 "Optimisation des performances frontend utilisant les meilleures pratiques Next.js et React."
             ],
-            tech: ["Next.js", "React", "Node.js", "MySQL", "FastAPI", "Ionic"]
+            tech: ["Next.js", "React", "Tailwind", "Node.js", "MySQL", "FastAPI", "APIs", "Ionic"]
         },
         {
             id: 2,
@@ -90,7 +113,16 @@ export const portfolioData = {
                 "Intégration des services Microsoft Azure pour une infrastructure cloud évolutive.",
                 "Automatisation du suivi des appels et des workflows de gestion de leads."
             ],
-            tech: ["Symfony", "Laravel", "Python", "TensorFlow", "Azure", "Asterisk"]
+            tech: ["CodeIgniter",
+                "Symfony",
+                "Laravel",
+                "React",
+                "Python",
+                "FastAPI",
+                "TensorFlow",
+                "Scikit-learn",
+                "Microsoft Azure",
+                "Asterisk"]
         },
         {
             id: 3,
@@ -103,7 +135,16 @@ export const portfolioData = {
                 "Gestion de l'architecture technique de la conception au déploiement en production.",
                 "Développement de systèmes d'analyse prédictive pour les marchés financiers."
             ],
-            tech: ["React", "Python", "Scikit-learn", "Stable Baselines", "MATLAB"]
+            tech: [
+                "React",
+                "Python",
+                "TensorFlow",
+                "Scikit-learn",
+                "Stable Baselines",
+                "MQL5",
+                "REST APIs",
+                "MATLAB"
+            ]
         },
         {
             id: 4,
@@ -116,7 +157,7 @@ export const portfolioData = {
                 "Maintenance des systèmes existants tout en migrant les composants critiques vers des frameworks modernes.",
                 "Garantie de la qualité du code par des tests rigoureux et des revues de code."
             ],
-            tech: ["CodeIgniter", "Symfony", "React", "Angular", "Vue.js"]
+            tech: ["jQuery", "Bootstrap", "CodeIgniter", "Symfony", "React", "Angular", "Vue.js"]
         }
     ],
 
@@ -128,8 +169,8 @@ export const portfolioData = {
             problem: "Les clients avaient besoin de plateformes de vente en ligne robustes et évolutives avec traitement sécurisé des paiements.",
             solution: "Conception et déploiement de 3 plateformes e-commerce personnalisées avec passerelles de paiement intégrées et tableaux de bord admin.",
             impact: "Rationalisation des processus de vente et augmentation de la portée numérique pour les entreprises locales.",
-            tech: ["React", "Node.js", "Stripe API", "MySQL"],
-            links: { live: "#", github: "#" },
+            tech: ["Bootstrap", "jQuery", "PHP", "MySQL", "MVC"],
+            links: { live: "#", github: "https://github.com/onivola/LTI-full-e-commerce" },
             featured: true
         },
         {
@@ -139,9 +180,9 @@ export const portfolioData = {
             problem: "Les centres d'appels faisaient face à de gros volumes de requêtes répétitives, entraînant de longs temps d'attente.",
             solution: "Mise en œuvre d'un agent vocal conversationnel utilisant le NLP pour traiter automatiquement les demandes courantes.",
             impact: "Réduction de la charge de travail des agents de 40% et amélioration de la disponibilité 24/7 pour les clients.",
-            tech: ["Python", "NLP", "Asterisk", "TensorFlow"],
-            links: { live: "#", github: "#" },
-            featured: true
+            tech: ["Python", "NLP", "Asterisk", "Scikit-learn", "TensorFlow"],
+            links: { live: "#", github: "https://github.com/onivola/UCC-IACallbot-Public" },
+
         },
         {
             id: 3,
@@ -150,9 +191,9 @@ export const portfolioData = {
             problem: "Besoin d'une solution de transfert d'argent P2P sécurisée et conviviale.",
             solution: "Développement d'une application mobile FinTech avec intégration de portefeuille numérique et protocoles de transaction sécurisés.",
             impact: "Facilitation des transferts pair-à-pair sécurisés et instantanés.",
-            tech: ["Ionic", "Node.js", "Security APIs"],
+            tech: ["Ionic", "React", "Node.js", "API Rest", "Security APIs", "MongoDB"],
             links: { live: "#", github: "#" },
-            featured: true
+
         },
         {
             id: 4,
@@ -161,7 +202,7 @@ export const portfolioData = {
             problem: "Les investisseurs manquaient d'un outil en temps réel pour suivre la performance des actifs.",
             solution: "Construction d'un tableau de bord de gestion d'actifs financiers avec visualisation de données en temps réel.",
             impact: "Autonomisation des utilisateurs avec des informations exploitables et un suivi de portefeuille à la minute près.",
-            tech: ["React", "D3.js", "FastAPI"],
+            tech: ["Tailwind", "React", "FastAPI", "MongoDB"],
             links: { live: "#", github: "#" }
         },
         {
@@ -171,7 +212,7 @@ export const portfolioData = {
             problem: "Les processus officiels de demande de visa étaient complexes et confus pour les utilisateurs.",
             solution: "Création d'une plateforme web simplifiée pour les demandes ESTA américaines.",
             impact: "Amélioration des taux de succès des soumissions grâce à une interface guidée par l'utilisateur.",
-            tech: ["Laravel", "MySQL", "PHP"],
+            tech: ["HTML/CSS", "Laravel", "PHP", "MySQL"],
             links: { live: "#", github: "#" }
         },
         {
@@ -181,7 +222,68 @@ export const portfolioData = {
             problem: "Utilisation inefficace de l'énergie dans les systèmes de chauffage domestique.",
             solution: "Développement d'une solution domotique pour la régulation thermique intelligente.",
             impact: "Optimisation de la consommation d'énergie et réduction des coûts des services publics.",
-            tech: ["IoT", "Embedded C", "Python"],
+            tech: ["IoT", "Arduino", "React Native", "Rest API", "Mysql"],
+            links: { live: "#", github: "#" }
+        },
+        {
+            id: 7,
+            title: "Système de Trading Algorithmique",
+            category: "IA",
+            problem: "Les marchés financiers sont volatils et nécessitent des décisions instantanées impossibles pour les humains.",
+            solution: "Développement d'algorithmes de trading et de systèmes d'analyse prédictive pour les marchés financiers.",
+            impact: "Maximisation des rendements et minimisation des risques grâce à des stratégies automatisées.",
+            tech: ["Python", "Pandas", "MATLAB", "Stable Baselines", "TensorFlow", "Scikit-learn", "APIs"],
+            links: { live: "#", github: "https://github.com/onivola/Hairamada-algo-trading-with-artificial-intelligence" }
+        },
+        {
+            id: 8,
+            title: "Plateforme de Rencontre",
+            category: "Mobile",
+            problem: "Les utilisateurs peinent à trouver des connexions significatives sur des plateformes génériques.",
+            solution: "Conception d'une application de rencontre sociale dotée d'un algorithme de matching et d'une messagerie en temps réel.",
+            impact: "Amélioration de l'engagement des utilisateurs et des taux de connexion réussis.",
+            tech: ["React", "Ionic", "Firebase", "Node.js", "Socket.io", "PostgreSQL"],
+            links: { live: "https://play.google.com/store/apps/details?id=com.date.tiana&hl=fr", github: "#" },
+            featured: true
+        },
+        {
+            id: 9,
+            title: "Système de Machine à Sous",
+            category: "IoT",
+            problem: "Les systèmes de jeux existants manquaient d'intégration matérielle sécurisée.",
+            solution: "Ingénierie logicielle pour systèmes de jeux embarqués, incluant la gestion des entrées/sorties matérielles.",
+            impact: "Expérience de jeu sécurisée et haute performance avec une gestion matérielle fiable.",
+            tech: ["C++", "Embedded Systems", "Hardware I/O", "Android"],
+            links: { live: "#", github: "#" }
+        },
+        {
+            id: 10,
+            title: "Système de Gestion Scolaire",
+            category: "Web",
+            problem: "Les établissements scolaires luttaient avec la fragmentation des dossiers académiques et administratifs.",
+            solution: "Développement d'un Système d'Information de Gestion Scolaire (SIGS) incluant le suivi académique et administratif.",
+            impact: "Centralisation des données, améliorant l'efficacité administrative et le suivi académique.",
+            tech: ["PHP", "Laravel", "MySQL", "Vue.js"],
+            links: { live: "#", github: "#" }
+        },
+        {
+            id: 11,
+            title: "CRM pour Centre d'Appels",
+            category: "Web",
+            problem: "Les centres d'appels manquaient d'outils spécialisés pour suivre les leads et optimiser les ventes.",
+            solution: "Conception et développement d'un CRM sur mesure incluant le suivi des appels, la gestion des leads et l'historique des interactions.",
+            impact: "Optimisation des performances de vente et rationalisation de la relation client.",
+            tech: ["React", "Express.js", "MongoDB", "Twilio"],
+            links: { live: "#", github: "#" }
+        },
+        {
+            id: 12,
+            title: "Plateforme Garage Automobile",
+            category: "Web",
+            problem: "Les ateliers auto souffraient d'une faible visibilité en ligne et de processus de réservation inefficaces.",
+            solution: "Site web professionnel présentant les services de réparation auto, incluant contact client, devis et visibilité en ligne.",
+            impact: "Augmentation de la visibilité en ligne et simplification des demandes de services.",
+            tech: ["Vue.js", "APIs", "Node.js", "Mysql"],
             links: { live: "#", github: "#" }
         }
     ]

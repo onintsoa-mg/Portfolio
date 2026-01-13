@@ -63,18 +63,22 @@ export function ProjectCard({ project, index }) {
 
                 {/* Actions */}
                 <div className="flex items-center gap-4 mt-auto pt-6 border-t border-[var(--border-color)]">
-                    <a
-                        href={project.links.live}
-                        className="flex items-center gap-2 text-sm font-medium text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors"
-                    >
-                        <ExternalLink size={16} /> {t('projectCard.live')}
-                    </a>
-                    <a
-                        href={project.links.github}
-                        className="flex items-center gap-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-                    >
-                        <Github size={16} /> {t('projectCard.code')}
-                    </a>
+                    {project.links.live != "#" && (
+                        <a target="_blank"
+                            href={project.links.live}
+                            className="flex items-center gap-2 text-sm font-medium text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors"
+                        >
+                            <ExternalLink size={16} /> {t('projectCard.live')}
+                        </a>
+                    )}
+                    {project.links.github != "#" && (
+                        <a target="_blank"
+                            href={project.links.github}
+                            className="flex items-center gap-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+                        >
+                            <Github size={16} /> {t('projectCard.code')}
+                        </a>
+                    )}
                 </div>
             </div>
         </motion.div>

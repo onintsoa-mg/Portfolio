@@ -57,6 +57,14 @@ export function Hero() {
                         >
                             <Linkedin size={18} /> {t('hero.linkedin')}
                         </a>
+
+                        <a
+                            href={`/${t('hero.cv_filename')}`}
+                            download
+                            className="px-6 py-3 rounded-md bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--text-primary)] font-medium hover:border-[var(--accent-primary)] transition-all flex items-center gap-2"
+                        >
+                            <Download size={18} /> {t('hero.download_cv')}
+                        </a>
                     </div>
                 </motion.div>
 

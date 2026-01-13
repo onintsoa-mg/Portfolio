@@ -27,7 +27,7 @@ export function Skills() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.4, delay: catIndex * 0.1 }}
-                            className="bg-[var(--card-bg)] p-8 rounded-xl border border-[var(--border-color)] hover:border-[var(--accent-primary)]/50 transition-colors"
+                            className="bg-[var(--card-bg)] p-4 rounded-xl border border-[var(--border-color)] hover:border-[var(--accent-primary)]/50 transition-colors"
                         >
                             <h3 className="text-lg font-bold mb-6 text-[var(--accent-primary)]">{category.category}</h3>
 

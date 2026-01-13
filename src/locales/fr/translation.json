@@ -9,13 +9,15 @@
         "greeting": "Bonjour, je suis",
         "available": "Disponible pour des projets",
         "cta": "Voir les projets",
-        "description": "Spécialisé dans les architectures web évolutives, l'intégration de l'IA et les solutions prêtes pour la production. Je conçois des applications de qualité entreprise qui résolvent de vrais problèmes commerciaux.",
+        "description": "Spécialisé dans les architectures web et mobiles évolutives, l’intégration de l’IA et les solutions prêtes pour la production. Je conçois des applications de niveau entreprise qui résolvent de réels besoins métiers.",
         "linkedin": "LinkedIn",
+        "download_cv": "Télécharger CV",
+        "cv_filename": "cv-onintsoa-fr.pdf",
         "visual": {
-            "backend": "Architecture Backend",
-            "ai": "Modèles IA",
+            "backend": "Applications Mobiles",
+            "ai": "Applications Web",
             "uptime": "Disponibilité 99.9%",
-            "frontend": "React / Next.js"
+            "frontend": "Modèles IA"
         }
     },
     "projectCard": {
@@ -29,7 +31,7 @@
     "sections": {
         "projects": {
             "title": "Projets en Vedette",
-            "subtitle": "Une sélection de projets démontrant des solutions de qualité entreprise, des plateformes web haute performance à l'automatisation par l'IA."
+            "subtitle": "Une sélection de projets démontrant des solutions de qualité entreprise, allant des plateformes web et mobiles haute performance à l’automatisation par l’IA."
         },
         "experience": {
             "title": "Expérience Professionnelle",
